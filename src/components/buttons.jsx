@@ -6,7 +6,6 @@ export const Buttons = () =>{
     const regex = /^[0-9]+$/;
     
     const handleClick = (value, e) => {
-        debugger
         e.preventDefault();
         setInput(input+value);
         if (regex.test(value)) {

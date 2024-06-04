@@ -90,16 +90,18 @@
 }
 .calculator .display_current {
   color: hsla(0,0%,100%,.6);
+  display: flex;
 }
 .calculator .display_current, .calculator .display_result {
-  display: flex;
   justify-content: flex-end;
   align-items: center;
   width: 100%;
   height: 50%;
   padding: 0 10px;
+  overflow-x: scroll;
 }
 .calculator .display_result {
   font-size: 52px;
   color: #eee;
+  display: block;
 }
