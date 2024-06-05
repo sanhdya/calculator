@@ -46,7 +46,7 @@
     width: 100%;
 }
 .calculator{
-  width: 20rem;
+  width: 25rem;
   height: 30rem;
   border-radius: 0.75rem;
   background: #eee;
@@ -90,7 +90,7 @@
 }
 .calculator .display_current {
   color: hsla(0,0%,100%,.6);
-  display: flex;
+  
 }
 .calculator .display_current, .calculator .display_result {
   justify-content: flex-end;
@@ -98,11 +98,9 @@
   width: 100%;
   height: 50%;
   padding: 0 10px;
+  display: flex;
 }
 .calculator .display_result {
   font-size: 52px;
   color: #eee;
-  display: block;
-  overflow-y: hidden;
-  overflow-x: scroll;
 }
