@@ -103,5 +103,6 @@
   font-size: 52px;
   color: #eee;
   display: block;
-  overflow-x: auto;
+  overflow-y: hidden;
+  overflow-x: scroll;
 }
